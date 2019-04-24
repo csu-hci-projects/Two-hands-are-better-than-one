@@ -34,8 +34,16 @@ using Windows.UI.Input.Inking;
 
 namespace PicturesAndNotes
 {
+
     public sealed partial class InkInputControl : UserControl
     {
+        DispatcherTimer timer;
+        DateTimeOffset startTime;
+        DateTimeOffset lastTime;
+        DateTimeOffset stopTime;
+        int timesTicked = 1;
+        int timesToTick = 10;
+
         //The current ink drawing attributes, used to set the strokes color, pen size and shape
         InkDrawingAttributes m_inkAttr = null;
         //The main ink manager instance, used to produce nice Bezier curves from pointer input
@@ -52,6 +60,73 @@ namespace PicturesAndNotes
         /// <summary>
         /// The current ink input color
         /// </summary>
+        /// 
+
+        //https://docs.microsoft.com/en-us/uwp/api/windows.ui.xaml.dispatchertimer
+        public void DispatcherTimerSetup()
+        {
+            if (timer == null) {
+                timer = new DispatcherTimer();
+                timer.Tick += dispatcherTimer_Tick;
+                timer.Interval = new TimeSpan(0, 0, 1);
+            //IsEnabled defaults to false
+            //            TimerLog.Text += "dispatcherTimer.IsEnabled = " + dispatcherTimer.IsEnabled + "\n";
+            startTime = DateTimeOffset.Now;
+        }
+            lastTime = startTime;
+            //            TimerLog.Text += "Calling dispatcherTimer.Start()\n";
+            timer.Start();
+            //IsEnabled should now be true after calling start
+//            TimerLog.Text += "dispatcherTimer.IsEnabled = " + dispatcherTimer.IsEnabled + "\n";
+        }
+
+        void dispatcherTimer_Tick(object sender, object e)
+        {
+            DateTimeOffset time = DateTimeOffset.Now;
+            TimeSpan span = time - lastTime;
+            lastTime = time;
+            //Time since last tick should be very very close to Interval
+//            TimerLog.Text += timesTicked + "\t time since last tick: " + span.ToString() + "\n";
+            timesTicked++;
+            if (timer.IsEnabled)
+            {
+                stopTime = time;
+                //                TimerLog.Text += "Calling dispatcherTimer.Stop()\n";
+                //IsEnabled should now be false after calling stop
+//                TimerLog.Text += "dispatcherTimer.IsEnabled = " + dispatcherTimer.IsEnabled + "\n";
+//                span = stopTime - startTime;
+//                TimerLog.Text += "Total Time Start-Stop: " + span.ToString() + "\n";
+            }
+        }
+        public async void StopTimer_Tick(Object sender, object e)
+        {
+            DateTimeOffset time = DateTimeOffset.Now;
+            timer.Stop();
+            TimeSpan span = startTime - lastTime;
+
+            Windows.Storage.StorageFolder storageFolder = Windows.Storage.ApplicationData.Current.LocalFolder;
+            Windows.Storage.StorageFile ticketsFile = await storageFolder.CreateFileAsync("timelog.txt", Windows.Storage.CreationCollisionOption.OpenIfExists);
+
+            //Use stream to write to the file
+            var stream = await ticketsFile.OpenAsync(Windows.Storage.FileAccessMode.ReadWrite);
+
+            using (var outputStream = stream.GetOutputStreamAt(stream.Size))
+            {
+                using (var dataWriter = new Windows.Storage.Streams.DataWriter(outputStream))
+                {
+                    dataWriter.WriteString("Time: " + span + "\n"); 
+                    await dataWriter.StoreAsync();
+                    await outputStream.FlushAsync();
+                }
+            }
+                    stream.Dispose(); // Or use the stream variable (see previous code snippet) with a using statement as well.
+
+
+
+                string path = @"c:\temp\MyTest.txt";
+            // This text is added only once to the file.
+            
+    }
         public Windows.UI.Color InkColor
         {
             get { return m_inkAttr.Color; }
@@ -152,7 +227,10 @@ namespace PicturesAndNotes
             //Add a new Image object to the inkCanvas
             this.inkCanvas.Children.Add(img.Image);
             //Set the new images position
-            img.Position(position.X, position.Y);
+            img.Position(position.X-100, position.Y);
+
+            this.DispatcherTimerSetup();
+
         }
 
         /// <summary>

@@ -22,13 +22,13 @@
     <AppXManifest Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-04-14T23:37:40.219</Modified>
+      <Modified>2019-04-22T01:44:49.312</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Debug\PicturesAndNotes.exe">
       <PackagePath>PicturesAndNotes.exe</PackagePath>
-      <Modified>2019-04-16T20:23:24.755</Modified>
+      <Modified>2019-04-23T03:43:20.941</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\Assets\animals-bear.png">
       <PackagePath>Assets\animals-bear.png</PackagePath>
@@ -132,7 +132,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Debug\PicturesAndNotes.xr.xml">
       <PackagePath>PicturesAndNotes.xr.xml</PackagePath>
-      <Modified>2019-04-16T20:23:24.372</Modified>
+      <Modified>2019-04-23T03:43:00.049</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
@@ -142,13 +142,13 @@
       <PackagePath>PicturePicker.xbf</PackagePath>
       <Modified>2019-04-14T23:37:38.987</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Debug\InkColor.xbf">
-      <PackagePath>InkColor.xbf</PackagePath>
-      <Modified>2019-04-14T23:37:38.988</Modified>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Debug\Common\InkColor.xbf">
+      <PackagePath>Common\InkColor.xbf</PackagePath>
+      <Modified>2019-04-20T22:37:49.047</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Debug\InkColorPicker.xbf">
       <PackagePath>InkColorPicker.xbf</PackagePath>
-      <Modified>2019-04-14T23:37:38.989</Modified>
+      <Modified>2019-04-23T03:43:00.107</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Debug\InkInputControl.xbf">
       <PackagePath>InkInputControl.xbf</PackagePath>
@@ -160,11 +160,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-04-16T20:23:24.452</Modified>
+      <Modified>2019-04-23T03:43:00.106</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-04-14T23:37:39.986</Modified>
+      <Modified>2019-04-22T01:44:49.031</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

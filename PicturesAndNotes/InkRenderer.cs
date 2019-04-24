@@ -40,7 +40,6 @@ namespace PicturesAndNotes
 
         //Permanent ink path collections
         private List<Path> m_permInk = null;
-
         /// <summary>
         /// A flag used to set if the rederer should use the active ink color to render
         /// </summary>

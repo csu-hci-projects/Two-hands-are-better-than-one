@@ -106,8 +106,8 @@
     <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Debug\PicturePicker.xbf">
       <PackagePath>PicturePicker.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Debug\InkColor.xbf">
-      <PackagePath>InkColor.xbf</PackagePath>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Debug\Common\InkColor.xbf">
+      <PackagePath>Common\InkColor.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Debug\InkColorPicker.xbf">
       <PackagePath>InkColorPicker.xbf</PackagePath>

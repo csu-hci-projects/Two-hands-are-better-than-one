@@ -788,3 +788,4 @@ namespace PicturesAndNotes.PicturesAndNotes_XamlTypeInfo
 }
 
 
+

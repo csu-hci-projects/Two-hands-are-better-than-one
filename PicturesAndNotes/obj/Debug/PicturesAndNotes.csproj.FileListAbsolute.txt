@@ -19,7 +19,6 @@ C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\Picture
 C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Debug\Assets\food-strawberry_with_light_shadow.png
 C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Debug\App.xbf
 C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Debug\PicturePicker.xbf
-C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Debug\InkColor.xbf
 C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Debug\InkColorPicker.xbf
 C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Debug\InkInputControl.xbf
 C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Debug\Common\StandardStyles.xbf
@@ -34,8 +33,6 @@ C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\Picture
 C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Debug\App.g.cs
 C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Debug\PicturePicker.g.i.cs
 C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Debug\PicturePicker.g.cs
-C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Debug\InkColor.g.i.cs
-C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Debug\InkColor.g.cs
 C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Debug\InkColorPicker.g.i.cs
 C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Debug\InkColorPicker.g.cs
 C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Debug\InkInputControl.g.i.cs
@@ -47,14 +44,12 @@ C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\Picture
 C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Debug\XamlTypeInfo.g.cs
 C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Debug\App.xaml
 C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Debug\PicturePicker.xaml
-C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Debug\InkColor.xaml
 C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Debug\InkColorPicker.xaml
 C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Debug\InkInputControl.xaml
 C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Debug\Common\StandardStyles.xaml
 C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Debug\MainPage.xaml
 C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Debug\App.xbf
 C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Debug\PicturePicker.xbf
-C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Debug\InkColor.xbf
 C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Debug\InkColorPicker.xbf
 C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Debug\InkInputControl.xbf
 C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Debug\Common\StandardStyles.xbf
@@ -74,3 +69,8 @@ C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\Picture
 C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Debug\qualifiers.txt.intermediate
 C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Debug\ProjectArchitectures.txt
+C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Debug\Common\InkColor.xbf
+C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Debug\Common\InkColor.g.i.cs
+C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Debug\Common\InkColor.g.cs
+C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Debug\Common\InkColor.xaml
+C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Debug\Common\InkColor.xbf

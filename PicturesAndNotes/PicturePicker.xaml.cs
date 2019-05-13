@@ -324,25 +324,11 @@ namespace PicturesAndNotes
             m_images = new List<Image>();
             //Add Some images using the Make and Add Image helper methods
             AddImage(MakeImage(@"ms-appx:///Assets/animals-bear.png"));
-            AddImage(MakeImage(@"ms-appx:///Assets/animals-beaver.png"));
-            AddImage(MakeImage(@"ms-appx:///Assets/animals-bumble_bee.png"));
             AddImage(MakeImage(@"ms-appx:///Assets/animals-cat.png"));
             AddImage(MakeImage(@"ms-appx:///Assets/animals-cow.png"));
             AddImage(MakeImage(@"ms-appx:///Assets/animals-dog.png"));
             AddImage(MakeImage(@"ms-appx:///Assets/animals-elephant.png"));
-            AddImage(MakeImage(@"ms-appx:///Assets/animals-elk.png"));
-            AddImage(MakeImage(@"ms-appx:///Assets/animals-giraffe.png"));
-            AddImage(MakeImage(@"ms-appx:///Assets/animals-gnu.png"));
-            AddImage(MakeImage(@"ms-appx:///Assets/animals-goat.png"));
-            AddImage(MakeImage(@"ms-appx:///Assets/animals-owl.png"));
-            AddImage(MakeImage(@"ms-appx:///Assets/animals-whale.png"));
-            AddImage(MakeImage(@"ms-appx:///Assets/devil_bat.png"));
-            AddImage(MakeImage(@"ms-appx:///Assets/food-fried_egg_sunny.png"));
-            AddImage(MakeImage(@"ms-appx:///Assets/food-grapes.png"));
-            AddImage(MakeImage(@"ms-appx:///Assets/food-kiwi.png"));
-            AddImage(MakeImage(@"ms-appx:///Assets/food-peper-cayenne_red_chili_pepper.png"));
-            AddImage(MakeImage(@"ms-appx:///Assets/food-strawberry_with_light_shadow.png"));
-            AddImage(MakeImage(@"ms-appx:///Assets/ghost.png"));
+       
         }
 
         /// <summary>

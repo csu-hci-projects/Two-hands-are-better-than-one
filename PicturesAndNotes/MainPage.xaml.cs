@@ -36,6 +36,7 @@ namespace PicturesAndNotes
         public MainPage()
         {
             this.InitializeComponent();
+           
             this.PicturePicker.DropTarget = this.InkInputControl.Target;
             this.PicturePicker.PictureDropped += PicturePicker_PictureDropped;
 
@@ -69,13 +70,26 @@ namespace PicturesAndNotes
         {
             this.InkInputControl.Clear();
         }
-
+        private void StopButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.InkInputControl.StopTimer_Tick(sender, e);
+        }
         private void InkColorPicked(Object sender, Windows.UI.Color color)
         {
             this.InkInputControl.InkColor = color;
         }
 
         private void PicturePicker_DoubleTapped(object sender, DoubleTappedRoutedEventArgs e)
+        {
+
+        }
+
+        private void InkColorPicker_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void InkInputControl_Loaded(object sender, RoutedEventArgs e)
         {
 
         }

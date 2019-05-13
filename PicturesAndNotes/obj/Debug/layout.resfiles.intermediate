@@ -23,8 +23,8 @@ Assets\SmallLogo.png
 Assets\SplashScreen.png
 Assets\StoreLogo.png
 App.xbf
+Common\InkColor.xbf
 Common\StandardStyles.xbf
-InkColor.xbf
 InkColorPicker.xbf
 InkInputControl.xbf
 MainPage.xbf

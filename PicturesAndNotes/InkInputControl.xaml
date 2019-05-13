@@ -1,0 +1,22 @@
+﻿<UserControl
+    x:Class="PicturesAndNotes.InkInputControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PicturesAndNotes"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+    
+    <Grid SizeChanged="Grid_SizeChanged">
+            <Canvas x:Name="inkCanvas" Background="White"
+                    PointerPressed="inkCanvas_PointerPressed"
+                    PointerMoved="inkCanvas_PointerMoved"
+                    PointerReleased="inkCanvas_PointerReleased"
+                    PointerExited="inkCanvas_PointerReleased"
+                    PointerEntered="inkCanvas_PointerPressed">
+                
+            </Canvas>
+    </Grid>
+</UserControl>

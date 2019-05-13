@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SPRO3ORTEGA</Machine>
+    <WindowsUser>hci</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>44f079df-fbdd-409f-b859-597156886299</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\obj\Release\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>403354F0226528F00E717A371E9707E5769FA52B5D6D5453F931350182DDEA83</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>44f079df-fbdd-409f-b859-597156886299_1.1.0.3_neutral__p2axanpvv1gw6</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>44f079df-fbdd-409f-b859-597156886299_p2axanpvv1gw6!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>44f079df-fbdd-409f-b859-597156886299</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=ics</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.3</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-04-20T21:42:49.804</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Release\PicturesAndNotes.exe">
+      <PackagePath>PicturesAndNotes.exe</PackagePath>
+      <Modified>2019-04-20T21:42:49.319</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\Assets\animals-bear.png">
+      <PackagePath>Assets\animals-bear.png</PackagePath>
+      <Modified>2013-07-05T03:35:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\Assets\animals-beaver.png">
+      <PackagePath>Assets\animals-beaver.png</PackagePath>
+      <Modified>2013-07-05T06:22:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\Assets\animals-bumble_bee.png">
+      <PackagePath>Assets\animals-bumble_bee.png</PackagePath>
+      <Modified>2013-07-05T06:24:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\Assets\animals-cat.png">
+      <PackagePath>Assets\animals-cat.png</PackagePath>
+      <Modified>2013-07-05T03:35:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\Assets\animals-cow.png">
+      <PackagePath>Assets\animals-cow.png</PackagePath>
+      <Modified>2013-07-05T06:24:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\Assets\animals-dog.png">
+      <PackagePath>Assets\animals-dog.png</PackagePath>
+      <Modified>2013-07-05T03:35:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\Assets\animals-elephant.png">
+      <PackagePath>Assets\animals-elephant.png</PackagePath>
+      <Modified>2013-07-05T03:35:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\Assets\animals-elk.png">
+      <PackagePath>Assets\animals-elk.png</PackagePath>
+      <Modified>2013-07-05T03:35:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\Assets\animals-giraffe.png">
+      <PackagePath>Assets\animals-giraffe.png</PackagePath>
+      <Modified>2013-07-05T03:35:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\Assets\animals-gnu.png">
+      <PackagePath>Assets\animals-gnu.png</PackagePath>
+      <Modified>2013-07-05T03:35:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\Assets\animals-goat.png">
+      <PackagePath>Assets\animals-goat.png</PackagePath>
+      <Modified>2013-07-05T06:22:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\Assets\animals-owl.png">
+      <PackagePath>Assets\animals-owl.png</PackagePath>
+      <Modified>2013-07-05T03:35:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\Assets\animals-whale.png">
+      <PackagePath>Assets\animals-whale.png</PackagePath>
+      <Modified>2013-07-05T06:24:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\Assets\devil_bat.png">
+      <PackagePath>Assets\devil_bat.png</PackagePath>
+      <Modified>2013-07-05T06:23:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\Assets\food-fried_egg_sunny.png">
+      <PackagePath>Assets\food-fried_egg_sunny.png</PackagePath>
+      <Modified>2013-07-05T06:24:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\Assets\food-grapes.png">
+      <PackagePath>Assets\food-grapes.png</PackagePath>
+      <Modified>2013-07-05T06:23:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\Assets\food-kiwi.png">
+      <PackagePath>Assets\food-kiwi.png</PackagePath>
+      <Modified>2013-07-05T06:23:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\Assets\food-peper-cayenne_red_chili_pepper.png">
+      <PackagePath>Assets\food-peper-cayenne_red_chili_pepper.png</PackagePath>
+      <Modified>2013-07-05T06:24:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\Assets\food-strawberry_with_light_shadow.png">
+      <PackagePath>Assets\food-strawberry_with_light_shadow.png</PackagePath>
+      <Modified>2013-07-05T06:24:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\Assets\ghost.png">
+      <PackagePath>Assets\ghost.png</PackagePath>
+      <Modified>2013-07-05T06:23:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T12:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T12:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T12:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T12:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Release\PicturesAndNotes.xr.xml">
+      <PackagePath>PicturesAndNotes.xr.xml</PackagePath>
+      <Modified>2019-04-20T21:42:48.997</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2019-04-20T21:42:49.129</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Release\PicturePicker.xbf">
+      <PackagePath>PicturePicker.xbf</PackagePath>
+      <Modified>2019-04-20T21:42:49.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Release\InkColor.xbf">
+      <PackagePath>InkColor.xbf</PackagePath>
+      <Modified>2019-04-20T21:42:49.131</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Release\InkColorPicker.xbf">
+      <PackagePath>InkColorPicker.xbf</PackagePath>
+      <Modified>2019-04-20T21:42:49.133</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Release\InkInputControl.xbf">
+      <PackagePath>InkInputControl.xbf</PackagePath>
+      <Modified>2019-04-20T21:42:49.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Release\Common\StandardStyles.xbf">
+      <PackagePath>Common\StandardStyles.xbf</PackagePath>
+      <Modified>2019-04-20T21:42:49.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2019-04-20T21:42:49.128</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\hci\Desktop\Hci\Touch and Stylus Application Source Code\Source\PicturesAndNotes\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2019-04-20T21:42:49.636</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
